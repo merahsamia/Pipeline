@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                php index.php
+                bat index.php
             }
         }
         stage('Test') {
